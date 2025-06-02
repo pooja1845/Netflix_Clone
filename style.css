@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.main {
+    background-image: url(assets/images/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    /* Changed to cover for better responsiveness */
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+
+}
+
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+
+    margin: auto;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif font-weight: 700;
+    font-style: normal;
+    margin: -76px;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 56px;
+    font-weight: 800;
+
+
+}
+
+.gap {
+    padding-left: 68px;
+}
+
+.heading ul {
+    list-style: none;
+}
+
+.heading1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading2 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 24px;
+    position: relative;
+    top: 30px;
+}
+
+.nav_btn {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 4px;
+    height: 33px;
+    width: 65px;
+    margin: 10px;
+
+}
+
+.nav_btn1 {
+    background-color: #000000;
+    color: white;
+    font-size: medium;
+    height: 33px;
+    width: 129px;
+    margin: 28px;
+    border: 1px solid rgb(95, 91, 91);
+    position: relative;
+}
+
+.nav_btn1 img {
+    padding: 2px;
+    width: 24px;
+    height: 16px;
+
+    position: absolute;
+    top: 7px;
+    left: 6px;
+}
+
+.btn_container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 513px;
+}
+
+.btn_container ::placeholder {
+    padding-left: 12px;
+    color: white;
+}
+
+.button {
+    height: 57px;
+    width: 397px;
+    margin: 7px;
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: #000000;
+    opacity: 0.8;
+    border: 1px solid grey;
+}
+
+.Started_btn {
+    background-color: #db1111;
+    color: white;
+    width: 250px;
+    height: 57px;
+    font-size: 11px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Started_btn img {
+    padding-left: 10px;
+    margin: -6px;
+}
+
+.line {
+    width: 100vw;
+    height: 2px;
+    background-color: grey;
+}
+
+.first_container {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    top: 91px;
+    left: 200px;
+
+    background-color: #000000;
+}
+
+.box1 {
+    background-color: #000000;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+}
+
+.txt_first {
+    color: white;
+    position: relative;
+}
+
+.txt_first :first-child {
+    font-size: 43px;
+    position: absolute;
+    top: -68px;
+    font-weight: 500;
+}
+
+.para {
+    position: relative;
+    top: -3px;
+    font-size: medium;
+}
+
+.media img {
+    height: 328px;
+    width: 425px;
+    position: relative;
+    z-index: 20;
+    left: 240px;
+}
+
+.media video {
+    position: absolute;
+    top: -40px;
+    left: 706px;
+    width: 314px;
+    height: 397px;
+}
+
+.second_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.img2 {
+    position: relative;
+    top: 48px;
+    left: 18px;
+
+}
+
+.txt_second {
+    position: relative;
+    top: 2;
+    left: 2;
+    color: white;
+}
+
+.txt_second :first-child {
+    font-size: 43px;
+    position: absolute;
+    font-weight: 500;
+    top: -37px;
+    left: -23px;
+}
+
+.para2 {
+
+    position: relative;
+    top: 123px;
+    left: -28px;
+    font-size: medium;
+}
+
+.txt_third {
+    /* color:white; */
+    /* position:relative; */
+}
+
+.txt_third :first-child {
+    position: absolute;
+    font-weight: 500;
+    font-size: 46px;
+    position: absolute;
+    top: 99px;
+    left: 159px;
+    color: white;
+}
+
+.para3 {
+    position: relative;
+    font-size: medium;
+    color: white;
+    top: 185px;
+    left: 152px;
+
+}
+
+.media1 img {
+    height: 301px;
+    width: 425px;
+    position: relative;
+    z-index: 20;
+    left: 850px;
+}
+
+.media1 video {
+    position: absolute;
+    top: 40px;
+    left: 907px;
+    width: 317px;
+    height: 353px;
+}
+
+.fourth_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.img4 {
+    position: relative;
+    top: 70px;
+    left: -13px;
+
+}
+
+.txt_fourth {
+    position: relative;
+    top: 123px;
+    left: -696px;
+    color: white;
+}
+
+.txt_fourth :first-child {
+    font-size: 45px;
+    position: absolute;
+    font-weight: 600;
+    top: -154px;
+    width: 50vw;
+    left: 644px;
+}
+
+.para4 {
+
+    position: relative;
+    top: -58px;
+    left: 660px;
+    font-size: medium;
+}
+
+.box2 h2 {
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    padding-left: 531px;
+    padding-top: 44px;
+}
+
+.faq {
+    display: flex;
+    color: white;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    max-width: 60vw;
+    height: 60px;
+    align-items: center;
+    margin: auto;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.faq:hover {
+    background-color: #414141;
+}
+
+.faq :first-child {
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.faq img {
+    padding-right: 22px;
+}
+
+.box2 {
+    background-color: #000000;
+    position: relative;
+    /* height: 70vh; */
+    height: 128vh;
+    width: 100vw;
+}
+
+.last_btn_container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 701px;
+    left: 400px;
+}
+
+.last_btn_container ::placeholder {
+    padding-left: 12px;
+    color: white;
+}
+
+.last_button {
+    height: 57px;
+    width: 397px;
+    margin: 7px;
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: #000000;
+    opacity: 0.8;
+    border: 1px solid grey;
+}
+
+.last_Started_btn {
+    background-color: #db1111;
+    color: white;
+    width: 250px;
+    height: 57px;
+    font-size: 11px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.last_Started_btn img {
+    padding-left: 10px;
+    margin: -6px;
+}
+
+.last_para {
+    position: absolute;
+    top: 669px;
+    left: 438px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer span {
+    padding-left: 43px;
+}
+
+footer {
+    background-color: #000000;
+    color: #b3b3b3;
+    height: 70vh;
+}
+
+.main_box_of_footer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin: 60px 2px 0px 35px;
+    align-items: center;
+    gap: 184px;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.link li a {
+    color: #b3b3b3;
+}
+
+li {
+    padding: 8px;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.para_footer {
+    padding-top: 23px;
+    font-size: 13px;
+    font-weight: 400;
+}
